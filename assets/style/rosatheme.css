@@ -1,0 +1,94 @@
+/*Header & Navbar*/
+
+#navigation .brand {
+	padding-right: 0;
+}
+#navigation {
+	/*border-top: 4px solid #ff6600;*/
+}
+#wr-logo {
+	max-width: 200px;
+	max-height: 50px;
+	float: left;
+}
+#navigation .mobile-menu .icon-bar {
+	background-color: #bbb;
+}
+#navigation #main-menu {
+	float: right;
+}
+/*Mobile Navigation*/
+#navigation .menu-underline {
+	color: #ff6600;
+	font-size: 18px;
+	font-weight: 400;
+}
+#navigation .menu-underline:hover {
+	border-bottom: 2px solid #ff6600;
+}
+
+.show-more-cube a {
+	background-color: #ff6600;
+}
+/*Service*/
+
+.page-features {
+	background: url(../images/pages/features/q_bck3.jpg) 50% 0 no-repeat fixed;
+}
+.carousel-inner .testimonial {
+	font-size: 16px;
+}
+.carousel-inner .testimonial h5 {
+	font-weight: 300;
+	font-size: 16px;
+}
+.great-design {
+	font-size: 16px;
+}
+#traveler {
+	text-transform: none;
+	font-size: 18px;
+}
+.points {
+	color: #ff6600;
+}
+
+/*Photo Blog*/
+.photocaption {
+	text-align: right;
+	color: #696969;
+	padding: 2em 0;
+	border-bottom: 1px solid #ccc;
+}
+.thumbnails li:last-child p {
+	border-bottom: none;
+}
+
+/*Contact*/
+.copyright a {
+	font-size: 70%;
+}
+.copyright a:hover {
+	text-decoration: none;
+}
+h5 {
+	font-weight: 400;
+}
+.page-contact form input[type='email'], 
+.page-contact form input[type='text'], 
+.page-contact form textarea {
+	background-color: rgba(0,0,0, 0.2);
+}
+.page-contact form .submit-btn.btn-primary {
+	background-color: rgba(0,0,0, 0.2);
+	border: 1px solid #ccc;
+	background-image: none;
+}
+.page-contact form .submit-btn.btn-primary:hover {
+	background-color: #ffffff;
+	color: #000;
+}
+
+
+
+
