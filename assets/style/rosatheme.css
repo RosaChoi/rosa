@@ -2,6 +2,9 @@ body {
 	/*font-family: "futura-pt", sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
 }
+h4 {
+	color: #BBB;
+}
 
 /*Header & Navbar*/
 
@@ -55,6 +58,9 @@ body {
 }
 .points {
 	color: #ff6600;
+	font-style: normal;
+	font-size: 0.8em;
+	line-height: 3;
 }
 
 /*Portfolio*/
@@ -120,10 +126,20 @@ h5 {
 .portfolio-item-details .website h5 {
 	margin-top: 2em;
 }
+.portfolio-item-details h5 {
+	border-bottom: 1px solid #BBB;
+	padding: 10px 0;
+}
+.portfolio-item-details p {
+	padding: 1em;
+}
 .portfolio-item-details .website a {
 	font-size: 16px;
 	font-weight: 400;
 	color: #222;
+}
+.portfolio-item-details .website a:hover {
+	opacity: 0.7;
 }
 .portfolio-item-details .submenu span {
 	font-size: 14px;
@@ -131,5 +147,6 @@ h5 {
 	font-weight: normal;
 	background-color: #f1f1f1;
 	text-transform: none;
+	padding-left: 0;
 }
 
