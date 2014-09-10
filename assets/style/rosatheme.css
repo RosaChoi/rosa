@@ -1,10 +1,12 @@
+body {
+	/*font-family: "futura-pt", sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
 /*Header & Navbar*/
 
 #navigation .brand {
 	padding-right: 0;
-}
-#navigation {
-	/*border-top: 4px solid #ff6600;*/
 }
 #wr-logo {
 	max-width: 200px;
@@ -13,6 +15,10 @@
 }
 #navigation .mobile-menu .icon-bar {
 	background-color: #bbb;
+}
+.page-welcome #welcome-messages+p {
+	font-weight: 400;
+	font-size: 18px;
 }
 
 /*Mobile Navigation*/
@@ -31,7 +37,7 @@
 /*Service*/
 
 .page-features {
-	background: url(../images/pages/features/q_bck3.jpg) 50% 0 no-repeat fixed;
+	background: url(../images/pages/features/q_bck2.jpg) 50% 0 no-repeat fixed;
 }
 .carousel-inner .testimonial {
 	font-size: 16px;
@@ -51,6 +57,19 @@
 	color: #ff6600;
 }
 
+/*Portfolio*/
+.portfolio-item-details .website a {
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,102,0,0.7);
+}
+.portfolio-items a:hover .portfolio-overlay {
+	opacity: 0.8;
+}
+.portfolio-overlay h4 {
+	font-weight: 400;
+}
+
 /*Photo Blog*/
 .photocaption {
 	text-align: right;
@@ -60,6 +79,9 @@
 }
 .thumbnails li:last-child p {
 	border-bottom: none;
+}
+.submenu a:hover, .submenu a.active {
+	background-color: #222;
 }
 
 /*Contact*/
@@ -87,6 +109,25 @@ h5 {
 	color: #000;
 }
 
+/*PROGRESSBAR*/
+.progress .bar,
+.progress-striped .bar {
+	/*display:none;*/
+	opacity: 0.3;
+}
 
-
+/*PROJECT/PORTFOLIO PAGES*/
+.portfolio-item-details .website h5 {
+	margin-top: 2em;
+}
+.portfolio-item-details .website a {
+	font-size: 16px;
+	font-weight: 400;
+	color: #222;
+}
+.portfolio-item-details .submenu span {
+	font-size: 14px;
+	color: #222;
+	background-color: none;
+}
 
