@@ -38,9 +38,8 @@ h4 {
 	background-color: #ff6600;
 }
 /*Service*/
-
 .page-features {
-	background: url(../images/pages/features/q_bck2.jpg) 50% 0 no-repeat fixed;
+	background: url(../images/pages/features/q_bck3.jpg) 50% 0 no-repeat fixed;
 }
 .carousel-inner .testimonial {
 	font-size: 16px;
@@ -89,6 +88,10 @@ h4 {
 .submenu a:hover, .submenu a.active {
 	background-color: #222;
 }
+/*BLOG PAGE*/
+#page-blog {
+	background-color: #f2f2f2;
+}
 
 /*Contact*/
 .copyright a {
@@ -113,6 +116,16 @@ h5 {
 .page-contact form .submit-btn.btn-primary:hover {
 	background-color: #ffffff;
 	color: #000;
+}
+.footer-menu li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.footer-menu li a:hover {
+	opacity: 0.8;
+}
+.page-contact p {
+	font-size: 16px;
 }
 
 /*PROGRESSBAR*/
