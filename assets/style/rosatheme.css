@@ -147,13 +147,13 @@ h5 {
 	border-bottom: 1px solid #BBB;
 	padding: 10px 0;
 }
-/*.portfolio-item-details p {
-	padding: 5px;
-}*/
 .portfolio-item-details .website a {
 	font-size: 16px;
 	font-weight: 400;
 	color: #222;
+}
+.portfolio-item-details .website p {
+	font-size: 14px;
 }
 .portfolio-item-details .website a:hover {
 	color: #ff6600;
