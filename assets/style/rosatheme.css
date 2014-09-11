@@ -74,6 +74,9 @@ h4 {
 .portfolio-overlay h4 {
 	font-weight: 400;
 }
+.portfolio-item-details p {
+	padding: 0;
+}
 
 /*Photo Blog*/
 .photocaption {
@@ -106,7 +109,8 @@ h5 {
 .page-contact form input[type='email'], 
 .page-contact form input[type='text'], 
 .page-contact form textarea {
-	background-color: rgba(0,0,0, 0.2);
+	background-color: rgba(0,0,0, 0.3);
+	color: rgba(255,102,0,0.8);
 }
 .page-contact form .submit-btn.btn-primary {
 	background-color: rgba(0,0,0, 0.2);
@@ -143,9 +147,9 @@ h5 {
 	border-bottom: 1px solid #BBB;
 	padding: 10px 0;
 }
-.portfolio-item-details p {
-	padding: 1em;
-}
+/*.portfolio-item-details p {
+	padding: 5px;
+}*/
 .portfolio-item-details .website a {
 	font-size: 16px;
 	font-weight: 400;
@@ -163,5 +167,8 @@ h5 {
 	background-color: #f1f1f1;
 	text-transform: none;
 	padding-left: 0;
+}
+.testimonial {
+	font-size: 12px;
 }
 
