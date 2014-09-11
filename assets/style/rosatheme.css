@@ -5,6 +5,9 @@ body {
 h4 {
 	color: #BBB;
 }
+.btn {
+	text-shadow: none;
+}
 
 /*Header & Navbar*/
 
@@ -113,12 +116,14 @@ h5 {
 	background-color: rgba(0,0,0, 0.3);
 	color: rgba(255,102,0,0.8);
 }
-.page-contact form .submit-btn.btn-primary {
+.page-contact form .submit-btn.btn-primary,
+.btn-primary {
 	background-color: rgba(0,0,0, 0.2);
 	border: 1px solid #ccc;
 	background-image: none;
 }
-.page-contact form .submit-btn.btn-primary:hover {
+.page-contact form .submit-btn.btn-primary:hover,
+.btn-primary:hover {
 	background-color: #ffffff;
 	color: #000;
 }
@@ -156,7 +161,7 @@ h5 {
 .portfolio-item-details .website p {
 	font-size: 14px;
 }
-.portfolio-item-details .website .wasel {
+.portfolio-item-details .website p a.wasel {
 	color: #222;
 }
 .portfolio-item-details .website a:hover {
