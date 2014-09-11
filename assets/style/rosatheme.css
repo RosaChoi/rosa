@@ -161,7 +161,7 @@ h5 {
 .portfolio-item-details .website p {
 	font-size: 14px;
 }
-.portfolio-item-details .website p a.wasel {
+a.wasel {
 	color: #222;
 }
 .portfolio-item-details .website a:hover {
