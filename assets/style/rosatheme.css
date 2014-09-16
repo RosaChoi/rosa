@@ -181,3 +181,21 @@ a.wasel {
 	font-size: 12px;
 }
 
+/*BLOG POSTS*/
+.blog-details img {
+	padding-bottom: 1.5em;
+}
+.page-blog-list .blog-list-right h6 {
+	color: #BBB;
+	font-weight: lighter;
+}
+.page-blog-list .blog-list-right .simple-link-list li a {
+	font-size: 0.7em;
+}
+.page-blog-list .blog-list-right .simple-link-list li a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+.page-blog-list h5 {
+	font-size: 1.4em;
+}
