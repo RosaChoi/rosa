@@ -137,6 +137,12 @@ h5 {
 .page-contact p {
 	font-size: 16px;
 }
+#response ul.errors {
+	margin-bottom: 25px;
+}
+#response .btn i {
+	font-size: 12px;
+}
 
 /*PROGRESSBAR*/
 .progress .bar,

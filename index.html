@@ -594,17 +594,18 @@
             <!-- End Header -->
             
             <!-- Start Article -->
-            <article>
+            <article id="contact-form">
                 <div class="row-fluid">
                     <!-- Contact form -->
                     <div class="span6">
                         <h5>Drop Me A Line</h5>
-                        <form>
-                            <input type="text" class="name-box span12" placeholder="Name" required="required">
-                            <input type="email" class="email-box span12" placeholder="Email" required="required">
-                            <textarea rows="10" class="text-box span12" required="required"></textarea>
+                        <form id="contactform" class="forms" action="contact.php" method="post">
+                            <input type="text" name="name" class="name-box span12 form-control" placeholder="Name (Required)" required="required">
+                            <input type="email" name="email" class="email-box span12 form-control" placeholder="Email (Required)" required="required">
+                            <textarea rows="10" name="message" class="text-box span12 form-control" required="required" placeholder="Enter your message ..."></textarea>
                             <button type="submit" class="submit-btn btn btn-primary">Submit</button>
                         </form>
+                        <div id="response"></div>
                     </div>
                     <!-- End Contact form -->
                     <!-- Contact information -->
